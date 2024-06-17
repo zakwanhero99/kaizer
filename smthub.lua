@@ -8,7 +8,7 @@
             --repeat task.wait() until game:GetService("Workspace")["_waves_started"].Value == true
         --end
 
-        local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main'
+        local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
         local repo2 = 'https://raw.githubusercontent.com/smtxtx1/smthubzx/main/'
 
         local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
