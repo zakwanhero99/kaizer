@@ -224,7 +224,7 @@
 
             local UnitDrops = {}
 
-        function UnitSelection()
+        --[[function UnitSelection()
                 UnitDrops = {}
                 local UnitsModule = game:GetService("ReplicatedStorage").src.Data.Units
                 local NameUnits = {}  -- Store all NameUnits in a table
@@ -259,7 +259,7 @@
             end
         end
             
-            UnitSelection()
+            UnitSelection()]]--
 
         function LevelsJoin()
             for i, v in pairs(game:GetService("ReplicatedStorage").src.Data.Levels:GetDescendants()) do
@@ -1588,5 +1588,4 @@ Toggles.AutoLeaveWave:OnChanged(function(bool)
         leaveWave()
     end
 end)
-
 
